@@ -1,0 +1,142 @@
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: linear-gradient(#A7204B, #E8B5C6);
+    color: #FCF7F9;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 2px black;
+}
+
+#bff-img {
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid #E8B5C6;
+    margin-bottom: 10px;
+    transition: all .5s;
+}
+
+#bff-img:hover {
+    transform: scale(1.1) rotate(5deg);
+}
+
+#bday-age {
+    background: #E8B5C6;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#bday-date {
+    margin: 0;
+    background: #E8B5C6;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+#gift-img-camping {
+    height: 225px;
+}
+
+#gift-img-cave {
+    height: 210px;
+}
+
+#gift-img-moon {
+    height: 586px;
+}
+
+#gift-img-hamster {
+    height: 225px;
+}
+
+.gift-img {
+    margin: 20px auto;
+    max-width: 400px;
+    height: 400px;
+    border: 6px solid #FCF7F9;
+    border-radius: 10px;
+    background-image: url("images/gift-cover.jpg");
+    background-size: cover;
+}
+
+#gift-img-confetti:hover {
+    background-image: url("images/confetti.gif");
+}
+
+#gift-img-bunny:hover {
+    background-image: url("images/bunny.gif");
+}
+
+#gift-img-hearts:hover {
+    background-image: url("images/hearts.gif");
+}
+
+#gift-img-moon:hover {
+    background-image: url("images/moon.gif");
+}
+
+#gift-img-corgi:hover {
+    background-image: url("images/corgi.gif");
+}
+
+#gift-img-camping:hover {
+    background-image: url("images/camping.gif");
+}
+
+#gift-img-cave:hover {
+    background-image: url("images/cave.gif");
+}
+
+#gift-img-computer:hover {
+    background-image: url("images/computer.gif");
+}
+
+#gift-img-hamster:hover {
+    background-image: url("images/hamster.gif");
+}
+
+#gift-img-crab:hover {
+    background-image: url("images/crab.gif");
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: white;
+}
+
+/* 
+Add the footer paragraph according to the design. 
+Configure the anchor tag to open the link in a new tab.
+Forgotten how to do it? Google it! 
+
+Link: 
+https://scrimba.com/learn/htmlandcss
+
+Text:
+Want to create your own Birthday GIFt site? Take this HTML & CSS course.
+*/
